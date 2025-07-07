@@ -141,11 +141,15 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* About styles */
 .about {
     border-radius: 10px;
     padding: 130px 150px;
-    margin-top: 130px;
     text-align: center;
 }
 
@@ -168,4 +172,45 @@ main {
 
 .item-description {
     font-weight: bold;
+}
+
+/* What I Do styles */
+.skills {
+    text-align: center;
+}
+
+.skills h3 {
+    margin-bottom: 30px;
+}
+
+.skills > p {
+    margin-bottom: 50px;
+    padding: 0 116px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 6px 60px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill img {
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-description {
+    margin-bottom: 30px;
+    font-size: 16px;
 }
